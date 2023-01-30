@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Meme-generator/static/css/main.d3cb20a0.css",
+    "main.js": "/Meme-generator/static/js/main.d6f9abbf.js",
+    "static/media/Drake.png": "/Meme-generator/static/media/Drake.84fa07accb8e9c65fb64.png",
+    "static/media/anime.png": "/Meme-generator/static/media/anime.34defd8b93ee72928d65.png",
+    "static/media/purplevs.jpg": "/Meme-generator/static/media/purplevs.0dd7b3a9a2262d543fd9.jpg",
+    "static/media/goddude.jpg": "/Meme-generator/static/media/goddude.1789244ab0b9f03f8b40.jpg",
+    "static/media/alwayshas.jpg": "/Meme-generator/static/media/alwayshas.76e6403d3a018384cba9.jpg",
+    "static/media/texting.jpg": "/Meme-generator/static/media/texting.8cbab33faf4256a6415e.jpg",
+    "static/media/dead.jpg": "/Meme-generator/static/media/dead.4f6c9a94d459339b145d.jpg",
+    "index.html": "/Meme-generator/index.html",
+    "main.d3cb20a0.css.map": "/Meme-generator/static/css/main.d3cb20a0.css.map",
+    "main.d6f9abbf.js.map": "/Meme-generator/static/js/main.d6f9abbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3cb20a0.css",
+    "static/js/main.d6f9abbf.js"
+  ]
+}
