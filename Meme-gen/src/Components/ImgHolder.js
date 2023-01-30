@@ -50,13 +50,13 @@ function ImgHolder(props){
                 <img id = "imgo"crossOrigin="true"  src = {image} ></img>
                 <p className = "memeTextbottom">{bottText}</p>
             </div>
-            <div className = "cent">
-            <div id= "flex-items" onClick = {Imago}>Next Meme</div>
-            <div id= "flex-items" onClick = {Imagl}>Last Meme</div>
+        <div className = "cent">
+                <div id= "flex-items" onClick = {Imagl}>Last Meme</div>
+                <div id= "flex-items" onClick = {Imago}>Next Meme</div>
         </div>
         
         <div id= "flex-items" onClick = {downloader} className = "divButton">Click me to Save meme</div>
-        <p>{counter } of { leng-1 }</p>
+        <p>{counter+1 } of { leng }</p>
         
     </div>
 

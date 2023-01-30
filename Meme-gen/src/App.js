@@ -7,8 +7,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Forma className = "Forma"/>
-      <p>made in one day by Josh</p>
-      <p>Optimized for PC and tablet devices</p>
+      <p>made in a couple hours by Josh.</p>
     </div>
   );
 }
