@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color:aliceblue;
+}
+
+.title{
+    margin-right:50px;
+    
+}
+a{
+    text-decoration: none;
+    text-shadow: 50px;
+    box-shadow: inset;
+    color:rgb(255, 255, 255);
+    
+
+}
+a:hover{
+    color:#DAB6FC;
+}
+
+
+.logo{
+    width: 100px;
+}

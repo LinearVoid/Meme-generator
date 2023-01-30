@@ -1,0 +1,54 @@
+.outside{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width:600px;
+    margin-top: 20px;
+}
+
+
+.cent{
+    align-items: center;
+}
+
+
+.memeHolder{
+    display:flex;
+    background-color:red;
+    justify-content: center;
+    width: fit-content;
+    height:min-content;
+
+}
+
+.memeTexttop{
+    font-size: 46px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline: 1px;
+    position: absolute;
+    z-index: 2;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+.memeTextbottom{
+    z-index:2;
+    font-size: 46px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline: 1px;
+    position:relative;
+    bottom:0;
+    z-index: 2;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
