@@ -11,23 +11,52 @@
 
 .background{
     display: flex;
-    background-color: rgb(214, 214, 214);
+    margin-bottom: 10px;
     width:80%;
     justify-content: space-around;
     flex-direction: row;
     padding: 10px;
+    opacity: 0.9;
     border-radius: 5px;
     align-items: center;
-    
+    background-color: rgb(134, 154, 209);
 }
 
 #center{
-
+    
     text-align: center;
 }
+
+#inp{
+    font-size: 16px;
+    width:10vw;
+    height:2vw;
+}
+
+.cent{
+    display: flex;
+    flex-direction: row;
+    
+    
+    justify-content: space-around;
+}
+
 
 #button {
     width:100px;
     text-align: center;
 
 }
+
+@media (max-width:1100px){
+    #center{
+        font-size: 12px;
+    }
+
+    #inp{
+        font-size: 16px;
+        width:70px;
+        height:20px;
+    }
+
+ }

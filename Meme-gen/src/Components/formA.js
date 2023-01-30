@@ -1,8 +1,20 @@
 import "./Forma.css"
-function Forma(){
+import ImgHolder from "./ImgHolder"
+import React from"react"
 
-    function bob(){
-        console.log("hello")
+function Forma(){
+    let top = ""
+    let bottom = ""
+    const [topText, setTopText] = React.useState("");
+    const [bottomText, setBottomText] = React.useState("");
+    function bob(yep){
+        console.log("bott text" + bottomText)
+        setBottomText(yep)
+    }
+
+    function bob2(yep){
+        console.log("top text" + topText)
+        setTopText(yep)
     }
 
 
@@ -12,16 +24,16 @@ function Forma(){
             <form className = "background">
 
                     <div id = "center">
-                        <h1>Top Text</h1>
-                        <input type = "text"></input>
+                        <h1>Enter Top Text</h1>
+                        <input   id ="inp" type = "text" onChange={(e) => bob2(e.target.value)}></input>
                     </div>
-                    <button onClick = {bob}id = "button">Submit</button>
                     <div id = "center">
-                        <h1>Bottom Text</h1>
-                        <input type = "text"></input>
+                        <h1>Enter Bottom Text</h1>
+                        <input id ="inp" type = "text" onChange={(e) => bob(e.target.value)}></input>
                     </div>
                 
             </form>
+            <ImgHolder topTexto = {topText} bottom = {bottomText}/>
             
         </main>
     )

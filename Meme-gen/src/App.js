@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Forma className = "Forma"/>
-      <ImgHolder/>
+      <p>made in one day by Josh</p>
+      <p>Optimized for PC and tablet devices</p>
     </div>
   );
 }

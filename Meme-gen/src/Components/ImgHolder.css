@@ -7,8 +7,8 @@
 }
 
 img{
-    width:600px;
-    margin-top: 20px;
+    width:45vw;
+   
 }
 
 
@@ -16,18 +16,21 @@ img{
     align-items: center;
 }
 
-
+#imgo{
+    min-width: 300px;
+}
 .memeHolder{
+    position:relative;
     display:flex;
-    background-color:red;
     justify-content: center;
     width: fit-content;
-    height:min-content;
+    height:fit-content;
+    
 
 }
 
 .memeTexttop{
-    font-size: 46px;
+    font-size:40px;
     color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     outline: 1px;
@@ -40,11 +43,11 @@ img{
 }
 .memeTextbottom{
     z-index:2;
-    font-size: 46px;
+    font-size:40px;
     color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     outline: 1px;
-    position:relative;
+    position:absolute;
     bottom:0;
     z-index: 2;
     text-shadow: -1px 1px 0 #000,
@@ -52,3 +55,58 @@ img{
 				 1px -1px 0 #000,
 				-1px -1px 0 #000;
 }
+
+.divButton{
+    margin-top:10px;
+    background-color: antiquewhite;
+}
+
+#flex-items{
+    border-radius: 9%;
+    color:wheat;
+    font-size: 16px;
+    margin: 10px;
+    background-color: rebeccapurple;
+    min-width: 70px;
+    min-height: 70px;
+    width: 5vw;
+    height: 4vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width:500px){
+    .memeTextbottom {
+        font-size: 16px;
+    
+    }
+    .memeTexttop {
+        font-size: 16px;
+    
+    }
+
+
+    #imgo{
+        width:300px;
+    }
+
+
+ }
+
+ @media (max-width:900px){
+    .memeTextbottom {
+        font-size: 25px;
+    
+    }
+    .memeTexttop {
+        font-size: 25px;
+    
+    }
+
+
+  
+
+ }
